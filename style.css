@@ -5,7 +5,8 @@
 }
 
 .menu-container {
-  border: 2px solid rgb(0, 72, 255);
+  border: 4px inset rgb(86, 79, 222);
+  /* There are many other values for border styling, which can be seen here https://developer.mozilla.org/en-US/docs/Web/CSS/border , depending on what you looking for */
   color: #fff;
   background-color: #5995DA;
   /* Blue */
@@ -20,6 +21,7 @@ This works because when you give an element a fixed position and a left and righ
   top: 0;
   left: 0;
   right: 0;
+  
 }
 
 .menu {
