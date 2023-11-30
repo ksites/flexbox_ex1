@@ -28,3 +28,5 @@ Flex-Basis is the way of sitting the base width of an item, but make sure to set
 Most short form: Flex:1;
 Less short form: Flex:1 1 0;
 full form: Flex-grow:1; , Flex-shrink:1;, Flex-bases:0;
+Great Video for Flex expiation: 
+https://www.youtube.com/watch?v=sanswTlz4ZY
