@@ -43,13 +43,22 @@ This works because when you give an element a fixed position and a left and righ
   background-color: #d6e9fe;
   display: flex;
   justify-content: center;
-
+ 
+  height: 300px;
+ 
+  justify-content: space-between;
+  align-items: center;
+  /* Used flex-wrap so items in the header wont be on top of each other, using wrap it will put content on each line after zooming into the screen  */
+  flex-wrap: wrap;
   
 }
 
 .social,
 .logo,
 .subscribe {
+  margin: 20px;
+  padding: 0;
+  box-sizing: border-box;
 
 }
 
@@ -68,19 +77,6 @@ padding: 5px;
   margin-bottom: 20px;
 
   
-}
-
-
-.header {
-
-  width: 900px;
-  height: 300px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* Used flex-wrap so items in the header wont be on top of each other, using wrap it will put content on each line after zooming into the screen  */
-  flex-wrap: wrap;
-
 }
 
 
