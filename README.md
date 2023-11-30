@@ -20,3 +20,11 @@ Use order to customize the order of individual elements.
 Use align-self to vertically align individual items.
 Use flex to create flexible boxes that can stretch and shrink.
 Added the FIX header to the page, by using Position: fixed property 
+Flex property has three properties inside: Flex-grow, flex-shrink, flex-basis.
+By using Just Flex: 1; we are defining three properties Flex-grow: 1, flex-shrink:1, flex-basis: 0; 
+flex-grow will make the item grow faster by depending on given value.
+flex-shrink will make the item shrink faster by depending on given value. AND,
+Flex-Basis is the way of sitting the base width of an item, but make sure to set smaller than the parent container size
+Most short form: Flex:1;
+Less short form: Flex:1 1 0;
+full form: Flex-grow:1; , Flex-shrink:1;, Flex-bases:0;
