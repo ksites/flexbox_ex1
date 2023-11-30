@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* These for overall look of page, basically placing these property values, the content on page will take the whole space on the page */
 }
 
 .menu-container {
