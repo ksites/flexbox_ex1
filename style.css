@@ -5,12 +5,21 @@
 }
 
 .menu-container {
+  border: 2px solid rgb(0, 72, 255);
   color: #fff;
   background-color: #5995DA;
   /* Blue */
   padding: 20px 0;
   display: flex;
   justify-content: center;
+  /* This position fixed property will stick the menu-container to the top regardless of  scrolling up or down */
+  position: fixed;
+  /* This gives your flex-box room to breathe and do it's flex-box thing. If your flex-direction is column, you could use top, left, bottom instead.
+
+This works because when you give an element a fixed position and a left and right of 0 or a top and bottom of 0, the element is stretched to fill the space from left to right, or top to bottom. That in turn allows a flex-box to use the amount of space you would expect without position fixed. */
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .menu {
@@ -96,6 +105,8 @@
 .footer {
   display: flex;
   justify-content: space-between;
+
+
 }
 
 .footer-item {
