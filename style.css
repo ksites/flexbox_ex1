@@ -50,10 +50,12 @@ This works because when you give an element a fixed position and a left and righ
 
 }
 .ulist{
-color: red;
+color: lightcoral;
 list-style: none;
+
 /* List-style: none will remove all bullet points or number order to give clean look */
- 
+margin: 5px;
+padding: 5px;
 }
 
 .social,
