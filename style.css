@@ -47,9 +47,14 @@ This works because when you give an element a fixed position and a left and righ
 .social,
 .logo,
 .subscribe {
-  /* border: 1px solid #5995DA; */
-}
 
+}
+.ulist{
+color: red;
+list-style: none;
+/* List-style: none will remove all bullet points or number order to give clean look */
+ 
+}
 
 .social,
 .subscribe {
